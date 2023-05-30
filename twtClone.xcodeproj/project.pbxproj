@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		911663472A1FE976004A3950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663462A1FE976004A3950 /* AppDelegate.swift */; };
 		911663492A1FE976004A3950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663482A1FE976004A3950 /* SceneDelegate.swift */; };
-		9116634B2A1FE976004A3950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116634A2A1FE976004A3950 /* ViewController.swift */; };
 		9116634E2A1FE976004A3950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116634C2A1FE976004A3950 /* Main.storyboard */; };
 		911663502A1FE977004A3950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9116634F2A1FE977004A3950 /* Assets.xcassets */; };
 		911663532A1FE977004A3950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911663512A1FE977004A3950 /* LaunchScreen.storyboard */; };
+		9116636F2A1FEBC9004A3950 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116636E2A1FEBC9004A3950 /* LoginController.swift */; };
+		911663712A1FEBDB004A3950 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663702A1FEBDB004A3950 /* RegistrationController.swift */; };
+		911663732A1FEBDF004A3950 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663722A1FEBDF004A3950 /* ConversationsController.swift */; };
+		911663752A1FEBE2004A3950 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663742A1FEBE2004A3950 /* ExploreController.swift */; };
+		911663772A1FEBE6004A3950 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663762A1FEBE6004A3950 /* FeedController.swift */; };
+		911663792A1FEBE9004A3950 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911663782A1FEBE9004A3950 /* NotificationsController.swift */; };
+		9116637B2A1FEBEB004A3950 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116637A2A1FEBEB004A3950 /* MainTabController.swift */; };
+		9116637D2A1FEBF4004A3950 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116637C2A1FEBF4004A3950 /* Utils.swift */; };
+		9116637F2A1FEBF6004A3950 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116637E2A1FEBF6004A3950 /* Extensions.swift */; };
+		91C334992A216F020044564A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C334982A216F020044564A /* GoogleService-Info.plist */; };
+		BFD9668F4A117C6AA67BA595 /* Pods_twtClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4815308FF40DDF5A62525BB /* Pods_twtClone.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9116636C2A1FEBB5004A3950 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2AB6E3BF6F4E3F2148769954 /* Pods-twtClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twtClone.debug.xcconfig"; path = "Target Support Files/Pods-twtClone/Pods-twtClone.debug.xcconfig"; sourceTree = "<group>"; };
+		763DFE5AD214282CD7DA2D08 /* Pods-twtClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twtClone.release.xcconfig"; path = "Target Support Files/Pods-twtClone/Pods-twtClone.release.xcconfig"; sourceTree = "<group>"; };
 		911663432A1FE976004A3950 /* twtClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twtClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911663462A1FE976004A3950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		911663482A1FE976004A3950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9116634A2A1FE976004A3950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9116634D2A1FE976004A3950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9116634F2A1FE977004A3950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911663522A1FE977004A3950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		911663542A1FE977004A3950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9116636E2A1FEBC9004A3950 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		911663702A1FEBDB004A3950 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		911663722A1FEBDF004A3950 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		911663742A1FEBE2004A3950 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		911663762A1FEBE6004A3950 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		911663782A1FEBE9004A3950 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		9116637A2A1FEBEB004A3950 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		9116637C2A1FEBF4004A3950 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9116637E2A1FEBF6004A3950 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		91C334982A216F020044564A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4815308FF40DDF5A62525BB /* Pods_twtClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twtClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD9668F4A117C6AA67BA595 /* Pods_twtClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D78A0525CFEF06B8E3B662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4815308FF40DDF5A62525BB /* Pods_twtClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C24E9EDEC0AA51AE3DEACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6E3BF6F4E3F2148769954 /* Pods-twtClone.debug.xcconfig */,
+				763DFE5AD214282CD7DA2D08 /* Pods-twtClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		910DA1502A263A1B00CE551B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9116637A2A1FEBEB004A3950 /* MainTabController.swift */,
+				911663782A1FEBE9004A3950 /* NotificationsController.swift */,
+				911663742A1FEBE2004A3950 /* ExploreController.swift */,
+				911663722A1FEBDF004A3950 /* ConversationsController.swift */,
+				911663702A1FEBDB004A3950 /* RegistrationController.swift */,
+				911663762A1FEBE6004A3950 /* FeedController.swift */,
+				9116636E2A1FEBC9004A3950 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		910DA1512A263A4100CE551B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9116637C2A1FEBF4004A3950 /* Utils.swift */,
+				9116637E2A1FEBF6004A3950 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9116633A2A1FE976004A3950 = {
 			isa = PBXGroup;
 			children = (
 				911663452A1FE976004A3950 /* twtClone */,
 				911663442A1FE976004A3950 /* Products */,
+				19C24E9EDEC0AA51AE3DEACC /* Pods */,
+				17D78A0525CFEF06B8E3B662 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +133,15 @@
 		911663452A1FE976004A3950 /* twtClone */ = {
 			isa = PBXGroup;
 			children = (
+				910DA1512A263A4100CE551B /* Utils */,
+				910DA1502A263A1B00CE551B /* Controller */,
 				911663462A1FE976004A3950 /* AppDelegate.swift */,
 				911663482A1FE976004A3950 /* SceneDelegate.swift */,
-				9116634A2A1FE976004A3950 /* ViewController.swift */,
 				9116634C2A1FE976004A3950 /* Main.storyboard */,
 				9116634F2A1FE977004A3950 /* Assets.xcassets */,
 				911663512A1FE977004A3950 /* LaunchScreen.storyboard */,
 				911663542A1FE977004A3950 /* Info.plist */,
+				91C334982A216F020044564A /* GoogleService-Info.plist */,
 			);
 			path = twtClone;
 			sourceTree = "<group>";
@@ -74,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 911663572A1FE977004A3950 /* Build configuration list for PBXNativeTarget "twtClone" */;
 			buildPhases = (
+				994870033DB66194B37D356E /* [CP] Check Pods Manifest.lock */,
 				9116633F2A1FE976004A3950 /* Sources */,
 				911663402A1FE976004A3950 /* Frameworks */,
 				911663412A1FE976004A3950 /* Resources */,
+				9116636C2A1FEBB5004A3950 /* CopyFiles */,
+				C23A94F0249426C8A9E5955E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +209,71 @@
 			files = (
 				911663532A1FE977004A3950 /* LaunchScreen.storyboard in Resources */,
 				911663502A1FE977004A3950 /* Assets.xcassets in Resources */,
+				91C334992A216F020044564A /* GoogleService-Info.plist in Resources */,
 				9116634E2A1FE976004A3950 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		994870033DB66194B37D356E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twtClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23A94F0249426C8A9E5955E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twtClone/Pods-twtClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twtClone/Pods-twtClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twtClone/Pods-twtClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9116633F2A1FE976004A3950 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9116634B2A1FE976004A3950 /* ViewController.swift in Sources */,
 				911663472A1FE976004A3950 /* AppDelegate.swift in Sources */,
+				9116636F2A1FEBC9004A3950 /* LoginController.swift in Sources */,
+				911663732A1FEBDF004A3950 /* ConversationsController.swift in Sources */,
+				911663712A1FEBDB004A3950 /* RegistrationController.swift in Sources */,
 				911663492A1FE976004A3950 /* SceneDelegate.swift in Sources */,
+				9116637D2A1FEBF4004A3950 /* Utils.swift in Sources */,
+				9116637B2A1FEBEB004A3950 /* MainTabController.swift in Sources */,
+				911663752A1FEBE2004A3950 /* ExploreController.swift in Sources */,
+				911663792A1FEBE9004A3950 /* NotificationsController.swift in Sources */,
+				9116637F2A1FEBF6004A3950 /* Extensions.swift in Sources */,
+				911663772A1FEBE6004A3950 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +415,7 @@
 		};
 		911663582A1FE977004A3950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB6E3BF6F4E3F2148769954 /* Pods-twtClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +444,7 @@
 		};
 		911663592A1FE977004A3950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763DFE5AD214282CD7DA2D08 /* Pods-twtClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
