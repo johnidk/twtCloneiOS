@@ -92,13 +92,12 @@
 		910DA1502A263A1B00CE551B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				910DA1522A26484D00CE551B /* Authentication */,
 				9116637A2A1FEBEB004A3950 /* MainTabController.swift */,
 				911663782A1FEBE9004A3950 /* NotificationsController.swift */,
 				911663742A1FEBE2004A3950 /* ExploreController.swift */,
 				911663722A1FEBDF004A3950 /* ConversationsController.swift */,
-				911663702A1FEBDB004A3950 /* RegistrationController.swift */,
 				911663762A1FEBE6004A3950 /* FeedController.swift */,
-				9116636E2A1FEBC9004A3950 /* LoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +109,15 @@
 				9116637E2A1FEBF6004A3950 /* Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		910DA1522A26484D00CE551B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				911663702A1FEBDB004A3950 /* RegistrationController.swift */,
+				9116636E2A1FEBC9004A3950 /* LoginController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		9116633A2A1FE976004A3950 = {

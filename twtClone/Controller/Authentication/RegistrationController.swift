@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RegistrationController: UIViewController {
     
@@ -41,12 +42,20 @@ class RegistrationController: UIViewController {
         return emailField
     }()
     
-    
-    
-    
     private lazy var alreadyHaveAccBtn: UIButton = {
         let button = Extensions().signUpOption("Already have an account?", " Log In")
         button.addTarget(self, action: #selector(handleShowLogin), for: .touchUpInside)
+        return button
+    }()
+    
+    private let signUpButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Sign Up", for: .normal)
+        button.setTitleColor(.twitterBlue, for: .normal)
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 5
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.addTarget(self, action: #selector(handleRegistration), for: .touchUpInside)
         return button
     }()
   
@@ -93,6 +102,18 @@ class RegistrationController: UIViewController {
 
     //MARK: - Selectors
     
+    @objc func handleRegistration() {
+        guard let email = emailTextField.text else { return }
+        guard let password = psswdTextField.text else { return }
+        
+
+        Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
+            if let error = error {
+                print("Debug: Error is \(error.localizedDescription)")
+            }
+        }
+    }
+    
     @objc func handleShowLogin() {
         navigationController?.popViewController(animated: true)
     }
@@ -113,7 +134,7 @@ class RegistrationController: UIViewController {
         addPhotoIcon.centerX(inView: view, topAnchor: view.safeAreaLayoutGuide.topAnchor)
         addPhotoIcon.setDimensions(width: 150, height: 150)
         
-        let stack = UIStackView(arrangedSubviews: [emailContainerView, psswdContainerView, fullNameContainerView, usernameContainerView])
+        let stack = UIStackView(arrangedSubviews: [emailContainerView, psswdContainerView, fullNameContainerView, usernameContainerView, signUpButton])
         stack.axis = .vertical
         stack.distribution = .fill
         stack.spacing = 8
